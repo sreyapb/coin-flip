@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quantum Coin Flipper</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 100px;
+      background: #131313;
+      color: white;
+    }
+t
+    h1 {
+      font-size: 5em;
+      margin-bottom: 40px;
+    }
+
+    .coin {
+      font-size: 5rem;
+      transition: transform 1s;
+      display: inline-block;
+      margin: 30px;
+      animation: idleFloat 2.5s ease-in-out infinite;
+    }
+
+    @keyframes idleFloat {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-18px); }
+      100% { transform: translateY(0); }
+    }
+
+    .flipping {
+      animation: flip 1s infinite !important;
+    }
+
+    @keyframes flip {
+      0% { transform: rotateY(0); }
+      50% { transform: rotateY(180deg); }
+      100% { transform: rotateY(360deg); }
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      background-color: #d5dde1;
+      color: rgb(11, 11, 11);
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #d1cfcf;
+    }
+
+    #result {
+      font-size: 1.5rem;
+      margin-top: 40px;
+      min-height: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Quantum Coin Flipper</h1>
+
+  <div class="coin" id="coin">🪙</div>
+  <audio id="flipSound" src="coin-flip.mp3" preload="auto"></audio>
+  <br>
+  <button onclick="flipCoin()">Flip the Quantum Coin</button>
+
+  <div id="result"></div>
+
+  <script>
+    const outcomes = [
+      "🪙 Heads",
+      "🪙 Tails",
+      "⚛️ Both Heads and Tails (Quantum Superposition)",
+      "💥 Coin Exploded in a Parallel Universe"
+    ];
+
+    const weights = [0.45, 0.45, 0.08, 0.02];
+
+    function weightedRandom(items, weights) {
+      let total = weights.reduce((a, b) => a + b, 0);
+      let r = Math.random() * total;
+      for (let i = 0; i < items.length; i++) {
+        if (r < weights[i]) return items[i];
+        r -= weights[i];
+      }
+    }
+
+    function flipCoin() {
+      const coin = document.getElementById("coin");
+      const result = document.getElementById("result");
+      const flipSound = document.getElementById("flipSound");
+
+      // Start animation
+      coin.classList.add("flipping");
+      // Pause idle animation while flipping
+      coin.style.animationPlayState = "paused";
+      result.innerText = "Flipping...";
+
+      // Play sound
+      if (flipSound) {
+        flipSound.currentTime = 0;
+        flipSound.play();
+      }
+
+      setTimeout(() => {
+        // Stop animation
+        coin.classList.remove("flipping");
+        // Resume idle animation
+        coin.style.animationPlayState = "running";
+
+        // Pick outcome
+        const outcome = weightedRandom(outcomes, weights);
+        result.innerText = "Quantum Flip Result: " + outcome;
+      }, 2000); // 2 seconds of flip animation
+    }
+  </script>
+
+</body>
+</html>
