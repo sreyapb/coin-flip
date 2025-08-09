@@ -3,6 +3,7 @@
 
 # Quantum Coin Flipper 🎯
 
+live link: https://coin-flip-one-tau.vercel.app/
 
 ## Basic Details
 ### Team Name: PS
