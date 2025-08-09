@@ -41,7 +41,9 @@ cd quantum-coin-flipper
 open index.html (or drag it into your browser)
 
 # Run
-[commands]
+
+
+```
 
 ### Project Documentation
 For Software:
