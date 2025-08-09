@@ -1,44 +1,44 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Quantum Coin Flipper 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: PS
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member1 : Sreya P B - SCMS School Of Engineering And Technology
+- Member2 : V Padmapriya Menon - SCMS School Of Engineering And Technology
 
 ### Project Description
-[2-3 lines about what your project does]
+Tired of regular coins being either heads or tails? Introducing the **Quantum Coin Flipper** — a coin that defies classical physics! Flip it to reveal not just heads or tails, but maybe both... or something more *explosive*.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Traditional coin flips are boring, predictable, and limited to two outcomes. In a world embracing quantum weirdness, why settle for binary?
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We’ve digitized the uncertainty principle! With just one click, our coin might show heads, tails, both at once, or even explode in a parallel universe. Because why not?
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- **Languages used:** HTML, CSS, JavaScript  
+- **Frameworks used:** None (pure frontend magic)  
+- **Libraries used:** None  
+- **Tools used:** VS Code, Browser
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+No installation needed. Just clone and open in your browser.  
+```bash
+git clone https://github.com/your-username/quantum-coin-flipper.git  
+cd quantum-coin-flipper  
+open index.html (or drag it into your browser)
 
 # Run
 [commands]
@@ -47,50 +47,26 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+Screenshot1:
+<img width="1920" height="894" alt="ss0" src="https://github.com/user-attachments/assets/ff058d1a-4dc0-415a-a397-a5b3fbf53fd6" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+Screenshot2:
+<img width="1920" height="918" alt="ss1" src="https://github.com/user-attachments/assets/6f72501d-0b51-4bf3-a883-f8cdb64f43fd" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Screenshot3:
+<img width="1920" height="907" alt="ss2" src="https://github.com/user-attachments/assets/6b011f62-7aa3-482b-91ab-3a66fed6b2a0" />
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+https://github.com/user-attachments/assets/bf9c5ae8-9cb1-452c-b29e-6f739817af5d
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+-Sreya P B: FrontEnd And BackEnd development
+-V Padmapriya Menon: FrontEnd And BackEnd development
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
