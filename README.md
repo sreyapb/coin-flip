@@ -42,11 +42,11 @@ open index.html (or drag it into your browser)
 
 # Run
 
+https://sreyapb.github.io/coin-flip/
 
 ```
 
 ### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 Screenshot1:
